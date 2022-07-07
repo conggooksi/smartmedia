@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="./css/kakao.css">
+</head>
+
+<body>
+  <!-- container -->
+  <div class="container">
+    <!-- nav -->
+    <div class="nav">
+      <div class="main">
+        <div class="friends" title="친구"></div>
+        <div class="chat" title="채팅"></div>
+        <div class="etc" title="더보기"></div>
+      </div>
+      <div class="sub">
+        <div class="emo" title="카카오 이모티콘샵"></div>
+        <div class="bell" title="알림"></div>
+        <div class="option" title="설정"></div>
+      </div>
+    </div>
+
+    <!-- content -->
+    <div class="content">
+      <!-- header -->
+      <header>
+        <h3>친구</h3>
+        <img src="">
+        <img src="">
+      </header>
+      <div class="content-body">
+        <!-- my profile -->
+        <div class="group mine">
+        </div>
+
+        <!-- birthday -->
+        <div class="group birthday">
+          <span class="info">생일인 친구</span>
+          <div class="profile">
+            <div class="user-img"></div>
+            <div class="user-info">
+              <span class="user-name">친구의 생일을 확인해보세요!</span>
+              <span class="user-message number">3</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- channel -->
+        <div class="group channel">
+          <span class="info">채널</span>
+          <div class="profile">
+            <div class="user-img"></div>
+            <div class="user-info">
+              <span class="user-name">채널</span>
+              <span class="user-message number">11</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- friends -->
+        <div class="group friend">
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- ad -->
+  <div class="footer">
+    광고 칸
+  </div>
+
+  <div id="modal">
+    <div class="content">
+      <button id="close_btn">X</button>
+      <div class="main_profile">
+        <div class="profile_img"></div>
+        <span class="profile_name">User Name</span>
+      </div>
+      <div class="action">
+        <div>
+          <div class="chat_icon"></div>
+          <span>1:1 채팅</span>
+        </div>
+        <div>
+          <div class="call_icon"></div>
+          <span>통화하기</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="./js/kakao.js"></script>
+</body>
+
+</html>
